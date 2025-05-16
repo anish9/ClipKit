@@ -1,4 +1,7 @@
 # ClipKit
+<p align="center">
+  <img src="https://github.com/anish9/ClipKit/blob/main/assets/clipkit_log.png" alt="ClipKit Logo" width="600"/>
+</p>
 ### About
 - ClipKit enables training customizable ```CLIP```-style contrastive models.
 - The core idea behind image-text models is to combine a pre-trained vision encoder with a pre-trained text encoder.
