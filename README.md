@@ -12,3 +12,7 @@
 - Community contributions are welcome to expand model support. The current implementation covers approximately 95% of common use cases.
 - 💡 Example: You don’t always need a **191M parameter** (fp32) model to solve a task—often, a **50M parameter** model can deliver comparable accuracy.
    **ClipKit** encourages building compact cross-model architectures that are efficient yet powerful.
+
+### Set-up
+- Set-up virtual env
+  ```pip install -r requirements.txt```
