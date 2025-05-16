@@ -20,7 +20,7 @@
     - (The CSV should contain image paths and corresponding text captions to kickstart training.)
 
 ### Model Set-up (Customization blocks)
-##### Vision Model
+##### Vision Model 📷
 - Import any vision model from the <a href="https://keras.io/api/applications/">Keras Applications Catalog</a>.
 - In ```train.py```, you can use models like ResNet, EfficientNet, NASNet, etc.
   - ###### **Code Example**
@@ -30,7 +30,7 @@
       - ```image_model = get_image_model(model=EfficientNetV2B0, active_layers_image_model=10)```
       - ```active_layers_image_model=10``` here last 10 layers of the image model are fine-tuned. Can be changed as needed.
       
-##### Text Model
+##### Text Model 🔤
 - Import any Bert family text models from <a href="https://huggingface.co/models?search=bert">Hugging Face Models Catalog</a>.
 - In```train.py```
   - ###### **Code Example**
@@ -40,7 +40,7 @@
     - After setting up ```text_model_id```, Edit ```get_text_model``` in ```train.py```. If needed turn ```trainable=False``` (Not recommended).
     - ```text_model, tokenizer = get_text_model(model_id=text_model_id, trainable=True)```
 
-##### HyperParameters
+##### HyperParameters 📈
 - In ```train.py``` Edit HyperParameters:
   
   - ```
@@ -52,4 +52,13 @@
         proj_dim = 512 
         learning_rate = 5e-5
     ```  
+### Launch 🚀
+- After **Model Set-up**.
+- Run
+  ```
+  python train.py
+  ```
+- Model logs and checkpoints will be generated once training starts successfully.
 
+### Test 🧮
+- Use ```test.ipynb``` to test your trained checkpoints.
