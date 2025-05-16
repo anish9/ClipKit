@@ -40,3 +40,16 @@
     - After setting up ```text_model_id```, Edit ```get_text_model``` in ```train.py```. If needed turn ```trainable=False``` (Not recommended).
     - ```text_model, tokenizer = get_text_model(model_id=text_model_id, trainable=True)```
 
+##### HyperParameters
+- In ```train.py``` we can edit as needed:
+  
+  - ```
+        ckpt_save_dir = "breed_model" #model checkpoint save directory
+        model_logs_dir = "breed_train_logs" #tensorboard logs
+        text_max_len = 12 #maximum length of text in your dataset
+        batch_size = 8  
+        epochs = 30
+        proj_dim = 512 
+        learning_rate = 5e-5
+    ```  
+
