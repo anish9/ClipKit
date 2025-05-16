@@ -13,8 +13,11 @@
 - 💡 Example: You don’t always need a **191M parameter** (fp32) model to solve a task—often, a **50M parameter** model can deliver comparable accuracy.
    **ClipKit** encourages building compact cross-model architectures that are efficient yet powerful.
 
-### Set-up
+### Experiment Set-up
 - ##### Set-up Virtual Env
   - ```pip install -r requirements.txt```
   - A sample dataset format is available at ```assets/demo_train_sample.csv```.
     - (The CSV should contain image paths and corresponding text captions to kickstart training.)
+
+### Model Set-up
+- Import any vision model from **<a href="https://keras.io/api/applications/">Image Models Catalog</a>**
