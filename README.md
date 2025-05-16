@@ -20,7 +20,8 @@
     - (The CSV should contain image paths and corresponding text captions to kickstart training.)
 
 ### Model Set-up
-- Import any vision model from **<a href="https://keras.io/api/applications/">Image Models Catalog</a>**
-- In the ```train.py``` just modify for import the model required.
-  - **Example**
-  - ```from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0```
+- Import any vision model from <a href="https://keras.io/api/applications/">**Image Models Catalog**</a>
+- In the ```train.py``` import any vision models from the catalog. Example : ResNet, EffNet, Nasnet etc ....
+  - **Code Example**
+    - ```from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0```
+     
