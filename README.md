@@ -14,5 +14,7 @@
    **ClipKit** encourages building compact cross-model architectures that are efficient yet powerful.
 
 ### Set-up
-- ##### Set-up virtual env
+- ##### Set-up Virtual Env
   - ```pip install -r requirements.txt```
+  - A sample dataset format is available at ```assets/demo_train_sample.csv```.
+    - (The CSV should contain image paths and corresponding text captions to kickstart training.)
