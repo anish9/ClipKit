@@ -21,3 +21,6 @@
 
 ### Model Set-up
 - Import any vision model from **<a href="https://keras.io/api/applications/">Image Models Catalog</a>**
+- In the ```train.py``` just modify for import the model required.
+  - **Example**
+  - ```from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0```
