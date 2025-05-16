@@ -14,5 +14,5 @@
    **ClipKit** encourages building compact cross-model architectures that are efficient yet powerful.
 
 ### Set-up
-- Set-up virtual env
-  ```pip install -r requirements.txt```
+- ##### Set-up virtual env
+  - ```pip install -r requirements.txt```
