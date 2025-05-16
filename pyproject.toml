@@ -1,0 +1,31 @@
+[tool.ruff]
+# Common rule sets: E (pycodestyle), F (pyflakes), I (import sort), B (bugbear), UP (pyupgrade)
+select = ["E", "F", "I", "B", "UP"]
+
+# Ignore specific rules if needed (optional)
+ignore = ["E501"]  # Ignore line length errors; Ruff formatter handles this
+
+# Set max line length (same as Black)
+line-length = 88
+
+# Target Python version
+target-version = "py39"
+
+# Exclude typical non-code folders
+exclude = [
+  ".git",
+  ".venv",
+  "__pycache__",
+  "build",
+  "dist",
+  "migrations",
+]
+
+[tool.ruff.format]
+# Enable Ruff's formatter (Black-compatible)
+quote-style = "double"             # Use double quotes
+indent-style = "space"             # Use 4 spaces
+line-ending = "auto"               # Match OS style (LF/CRLF)
+docstring-code-format = true       # Format code inside docstrings
+skip-magic-trailing-comma = false  # Apply trailing commas
+
