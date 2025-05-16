@@ -62,3 +62,25 @@
 
 ### Test 🧮
 - Use ```test.ipynb``` to test your trained checkpoints.
+- ##### **Example:  Zero-shot classification**: 
+  - ```
+    captions = [
+    "the breed is shitzu",
+    "the breed is norweight_elkahound",
+    "the breed is Maltese", ....
+    ]
+
+    image_id = "68768d392e81a9864575a1678707565b.jpg"  # image_path
+    image_vect, text_vect = get_embeddings(image_path=image_id, captions=captions)
+    predictions = compute_scores(image_vector=image_vect,
+                                 text_vector=text_vect,
+                                 captions=captions, top_pred_count=3)
+    ```   
+
+### Philosophy
+  - This project is a reliable workhorse that gets the job done. While some bug fixes will be addressed in the future, contributions and feedback are always welcome. Feel free to raise issues, suggest improvements,
+    or submit pull requests to make it better.
+
+  - The core philosophy of this repository is simple:
+    **"You don’t need a chainsaw to cut a small plant."**
+    In the machine learning world, this analogy reminds us that not every task requires a massive model — smaller, efficient models can often achieve the same results with less complexity and cost.
