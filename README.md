@@ -25,7 +25,7 @@
 - In ```train.py```, you can use models like ResNet, EfficientNet, NASNet, etc.
 - ###### Example 
     ```
-          from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0
+         from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0
       
          image_model = get_image_model(model=EfficientNetV2B0, active_layers_image_model=10)
       
