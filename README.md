@@ -65,7 +65,7 @@
   ```
 - Model logs and checkpoints will be generated once training starts successfully.
 
-### Test 🧮
+### Test 🔍
 - Use ```test.ipynb``` to test your trained checkpoints.
 - ##### **Example:  Zero-shot classification**: 
   - ```
@@ -82,7 +82,7 @@
                                  captions=captions, top_pred_count=3)
     ```   
 
-### Philosophy
+### Philosophy 🌴
   - This project is a reliable workhorse that gets the job done. While some bug fixes will be addressed in the future, contributions and feedback are always welcome. Feel free to raise issues, suggest improvements,
     or submit pull requests to make it better.
 
